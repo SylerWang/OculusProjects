@@ -1,0 +1,38 @@
+// Geometric Tools LLC, Redmond WA 98052
+// Copyright (c) 1998-2014
+// Distributed under the Boost Software License, Version 1.0.
+// http://www.boost.org/LICENSE_1_0.txt
+// http://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// File Version: 1.0.0 (2014/08/11)
+
+#pragma once
+
+#include <mutex>
+#include <queue>
+
+namespace gte
+{
+
+template <typename Element>
+class ThreadSafeQueue
+{
+public:
+    // Construction and destruction.
+    virtual ~ThreadSafeQueue();
+    ThreadSafeQueue(size_t maxNumElements = 0);
+
+    // All the operations are thread-safe.
+    size_t GetMaxNumElements() const;
+    size_t GetNumElements() const;
+    bool Push(Element const& element);
+    bool Pop(Element& element);
+
+protected:
+    size_t mMaxNumElements;
+    std::queue<Element> mQueue;
+    mutable std::mutex mMutex;
+};
+
+#include "GteThreadSafeQueue.inl"
+
+}

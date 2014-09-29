@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1551289619D606BA0063857C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551289519D606BA0063857C /* Cocoa.framework */; };
+		155128A019D606BA0063857C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1551289E19D606BA0063857C /* InfoPlist.strings */; };
+		155128A219D606BA0063857C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 155128A119D606BA0063857C /* main.m */; };
+		155128A619D606BA0063857C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 155128A419D606BA0063857C /* Credits.rtf */; };
+		155128A919D606BA0063857C /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 155128A819D606BA0063857C /* AppDelegate.mm */; };
+		155128AC19D606BA0063857C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 155128AA19D606BA0063857C /* MainMenu.xib */; };
+		155128AE19D606BA0063857C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 155128AD19D606BA0063857C /* Images.xcassets */; };
+		155128B519D606BB0063857C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155128B419D606BB0063857C /* XCTest.framework */; };
+		155128B619D606BB0063857C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1551289519D606BA0063857C /* Cocoa.framework */; };
+		155128BE19D606BB0063857C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 155128BC19D606BB0063857C /* InfoPlist.strings */; };
+		155128C019D606BB0063857C /* RASketchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 155128BF19D606BB0063857C /* RASketchTests.m */; };
+		155128CA19D607BF0063857C /* libGTEngine.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 155128C919D607BF0063857C /* libGTEngine.a */; };
+		155128CD19D60DD40063857C /* RAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 155128CC19D60DD40063857C /* RAGLView.mm */; };
+		155128CF19D60DEA0063857C /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155128CE19D60DEA0063857C /* OpenGL.framework */; };
+		1551294A19D628690063857C /* RAES2OffScreenBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551291C19D628690063857C /* RAES2OffScreenBuffer.cpp */; };
+		1551294B19D628690063857C /* RAES2ShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551291E19D628690063857C /* RAES2ShaderProgram.cpp */; };
+		1551294C19D628690063857C /* RAES2VertexArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551292019D628690063857C /* RAES2VertexArray.cpp */; };
+		1551294D19D628690063857C /* RAES2VertexBuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551292219D628690063857C /* RAES2VertexBuffer.cpp */; };
+		1551294E19D628690063857C /* RAMesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551292419D628690063857C /* RAMesh.cpp */; };
+		1551295019D628690063857C /* RALogManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1551292B19D628690063857C /* RALogManager.cpp */; };
+		1551295419D628690063857C /* DepthShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293319D628690063857C /* DepthShader.fsh */; };
+		1551295519D628690063857C /* DepthShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293419D628690063857C /* DepthShader.vsh */; };
+		1551295619D628690063857C /* DirectionalLight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293519D628690063857C /* DirectionalLight.fsh */; };
+		1551295719D628690063857C /* DirectionalLight.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293619D628690063857C /* DirectionalLight.vsh */; };
+		1551295819D628690063857C /* PosColorShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293719D628690063857C /* PosColorShader.fsh */; };
+		1551295919D628690063857C /* PosColorShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293819D628690063857C /* PosColorShader.vsh */; };
+		1551295A19D628690063857C /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293919D628690063857C /* Shader.fsh */; };
+		1551295B19D628690063857C /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 1551293A19D628690063857C /* Shader.vsh */; };
+		155129A919D7540B0063857C /* libovr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 155129A819D7540B0063857C /* libovr.a */; };
+		155129AB19D759700063857C /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 155129AA19D759700063857C /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		155128B719D606BB0063857C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1551288A19D606BA0063857C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1551289119D606BA0063857C;
+			remoteInfo = RASketch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1551289219D606BA0063857C /* RASketch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RASketch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1551289519D606BA0063857C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1551289819D606BA0063857C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1551289919D606BA0063857C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1551289A19D606BA0063857C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1551289D19D606BA0063857C /* RASketch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RASketch-Info.plist"; sourceTree = "<group>"; };
+		1551289F19D606BA0063857C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		155128A119D606BA0063857C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		155128A319D606BA0063857C /* RASketch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RASketch-Prefix.pch"; sourceTree = "<group>"; };
+		155128A519D606BA0063857C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		155128A719D606BA0063857C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		155128A819D606BA0063857C /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		155128AB19D606BA0063857C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		155128AD19D606BA0063857C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		155128B319D606BB0063857C /* RASketchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RASketchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		155128B419D606BB0063857C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		155128BB19D606BB0063857C /* RASketchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RASketchTests-Info.plist"; sourceTree = "<group>"; };
+		155128BD19D606BB0063857C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		155128BF19D606BB0063857C /* RASketchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RASketchTests.m; sourceTree = "<group>"; };
+		155128C919D607BF0063857C /* libGTEngine.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGTEngine.a; path = "../../../Library/Developer/Xcode/DerivedData/OculusProjects-ccyvarwnxljrqgbsklqbvxfscsvs/Build/Products/Default/libGTEngine.a"; sourceTree = "<group>"; };
+		155128CB19D60DD40063857C /* RAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RAGLView.h; path = Source/RAGLView.h; sourceTree = "<group>"; };
+		155128CC19D60DD40063857C /* RAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = RAGLView.mm; path = Source/RAGLView.mm; sourceTree = "<group>"; };
+		155128CE19D60DEA0063857C /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		1551291C19D628690063857C /* RAES2OffScreenBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RAES2OffScreenBuffer.cpp; sourceTree = "<group>"; };
+		1551291D19D628690063857C /* RAES2OffScreenBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAES2OffScreenBuffer.h; sourceTree = "<group>"; };
+		1551291E19D628690063857C /* RAES2ShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RAES2ShaderProgram.cpp; sourceTree = "<group>"; };
+		1551291F19D628690063857C /* RAES2ShaderProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAES2ShaderProgram.h; sourceTree = "<group>"; };
+		1551292019D628690063857C /* RAES2VertexArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RAES2VertexArray.cpp; sourceTree = "<group>"; };
+		1551292119D628690063857C /* RAES2VertexArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAES2VertexArray.h; sourceTree = "<group>"; };
+		1551292219D628690063857C /* RAES2VertexBuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RAES2VertexBuffer.cpp; sourceTree = "<group>"; };
+		1551292319D628690063857C /* RAES2VertexBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAES2VertexBuffer.h; sourceTree = "<group>"; };
+		1551292419D628690063857C /* RAMesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RAMesh.cpp; sourceTree = "<group>"; };
+		1551292519D628690063857C /* RAMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RAMesh.h; sourceTree = "<group>"; };
+		1551292B19D628690063857C /* RALogManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RALogManager.cpp; sourceTree = "<group>"; };
+		1551292C19D628690063857C /* RALogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RALogManager.h; sourceTree = "<group>"; };
+		1551293319D628690063857C /* DepthShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthShader.fsh; sourceTree = "<group>"; };
+		1551293419D628690063857C /* DepthShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthShader.vsh; sourceTree = "<group>"; };
+		1551293519D628690063857C /* DirectionalLight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectionalLight.fsh; sourceTree = "<group>"; };
+		1551293619D628690063857C /* DirectionalLight.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DirectionalLight.vsh; sourceTree = "<group>"; };
+		1551293719D628690063857C /* PosColorShader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PosColorShader.fsh; sourceTree = "<group>"; };
+		1551293819D628690063857C /* PosColorShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PosColorShader.vsh; sourceTree = "<group>"; };
+		1551293919D628690063857C /* Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		1551293A19D628690063857C /* Shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		1551296219D62B280063857C /* RA_Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RA_Types.h; sourceTree = "<group>"; };
+		155129A819D7540B0063857C /* libovr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libovr.a; path = /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Projects/Mac/Xcode/../../../Lib/Mac/Debug/libovr.a; sourceTree = "<absolute>"; };
+		155129AA19D759700063857C /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1551288F19D606BA0063857C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155129AB19D759700063857C /* IOKit.framework in Frameworks */,
+				155129A919D7540B0063857C /* libovr.a in Frameworks */,
+				155128CF19D60DEA0063857C /* OpenGL.framework in Frameworks */,
+				155128CA19D607BF0063857C /* libGTEngine.a in Frameworks */,
+				1551289619D606BA0063857C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155128B019D606BB0063857C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155128B619D606BB0063857C /* Cocoa.framework in Frameworks */,
+				155128B519D606BB0063857C /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1551288919D606BA0063857C = {
+			isa = PBXGroup;
+			children = (
+				1551291A19D628690063857C /* RAEngine */,
+				1551289B19D606BA0063857C /* RASketch */,
+				155128B919D606BB0063857C /* RASketchTests */,
+				1551289419D606BA0063857C /* Frameworks */,
+				1551289319D606BA0063857C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1551289319D606BA0063857C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1551289219D606BA0063857C /* RASketch.app */,
+				155128B319D606BB0063857C /* RASketchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1551289419D606BA0063857C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				155129AA19D759700063857C /* IOKit.framework */,
+				155129A819D7540B0063857C /* libovr.a */,
+				155128CE19D60DEA0063857C /* OpenGL.framework */,
+				155128C919D607BF0063857C /* libGTEngine.a */,
+				1551289519D606BA0063857C /* Cocoa.framework */,
+				155128B419D606BB0063857C /* XCTest.framework */,
+				1551289719D606BA0063857C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1551289719D606BA0063857C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1551289819D606BA0063857C /* AppKit.framework */,
+				1551289919D606BA0063857C /* CoreData.framework */,
+				1551289A19D606BA0063857C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1551289B19D606BA0063857C /* RASketch */ = {
+			isa = PBXGroup;
+			children = (
+				155128CB19D60DD40063857C /* RAGLView.h */,
+				155128CC19D60DD40063857C /* RAGLView.mm */,
+				155128A719D606BA0063857C /* AppDelegate.h */,
+				155128A819D606BA0063857C /* AppDelegate.mm */,
+				155128AA19D606BA0063857C /* MainMenu.xib */,
+				155128AD19D606BA0063857C /* Images.xcassets */,
+				1551289C19D606BA0063857C /* Supporting Files */,
+			);
+			path = RASketch;
+			sourceTree = "<group>";
+		};
+		1551289C19D606BA0063857C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1551289D19D606BA0063857C /* RASketch-Info.plist */,
+				1551289E19D606BA0063857C /* InfoPlist.strings */,
+				155128A119D606BA0063857C /* main.m */,
+				155128A319D606BA0063857C /* RASketch-Prefix.pch */,
+				155128A419D606BA0063857C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		155128B919D606BB0063857C /* RASketchTests */ = {
+			isa = PBXGroup;
+			children = (
+				155128BF19D606BB0063857C /* RASketchTests.m */,
+				155128BA19D606BB0063857C /* Supporting Files */,
+			);
+			path = RASketchTests;
+			sourceTree = "<group>";
+		};
+		155128BA19D606BB0063857C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				155128BB19D606BB0063857C /* RASketchTests-Info.plist */,
+				155128BC19D606BB0063857C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1551291A19D628690063857C /* RAEngine */ = {
+			isa = PBXGroup;
+			children = (
+				1551291B19D628690063857C /* Core */,
+				1551292A19D628690063857C /* Logging */,
+				1551293219D628690063857C /* Shaders */,
+				1551296219D62B280063857C /* RA_Types.h */,
+			);
+			path = RAEngine;
+			sourceTree = "<group>";
+		};
+		1551291B19D628690063857C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1551291C19D628690063857C /* RAES2OffScreenBuffer.cpp */,
+				1551291D19D628690063857C /* RAES2OffScreenBuffer.h */,
+				1551291E19D628690063857C /* RAES2ShaderProgram.cpp */,
+				1551291F19D628690063857C /* RAES2ShaderProgram.h */,
+				1551292019D628690063857C /* RAES2VertexArray.cpp */,
+				1551292119D628690063857C /* RAES2VertexArray.h */,
+				1551292219D628690063857C /* RAES2VertexBuffer.cpp */,
+				1551292319D628690063857C /* RAES2VertexBuffer.h */,
+				1551292419D628690063857C /* RAMesh.cpp */,
+				1551292519D628690063857C /* RAMesh.h */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1551292A19D628690063857C /* Logging */ = {
+			isa = PBXGroup;
+			children = (
+				1551292B19D628690063857C /* RALogManager.cpp */,
+				1551292C19D628690063857C /* RALogManager.h */,
+			);
+			path = Logging;
+			sourceTree = "<group>";
+		};
+		1551293219D628690063857C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				1551293319D628690063857C /* DepthShader.fsh */,
+				1551293419D628690063857C /* DepthShader.vsh */,
+				1551293519D628690063857C /* DirectionalLight.fsh */,
+				1551293619D628690063857C /* DirectionalLight.vsh */,
+				1551293719D628690063857C /* PosColorShader.fsh */,
+				1551293819D628690063857C /* PosColorShader.vsh */,
+				1551293919D628690063857C /* Shader.fsh */,
+				1551293A19D628690063857C /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1551289119D606BA0063857C /* RASketch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155128C319D606BB0063857C /* Build configuration list for PBXNativeTarget "RASketch" */;
+			buildPhases = (
+				1551288E19D606BA0063857C /* Sources */,
+				1551288F19D606BA0063857C /* Frameworks */,
+				1551289019D606BA0063857C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RASketch;
+			productName = RASketch;
+			productReference = 1551289219D606BA0063857C /* RASketch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		155128B219D606BB0063857C /* RASketchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 155128C619D606BB0063857C /* Build configuration list for PBXNativeTarget "RASketchTests" */;
+			buildPhases = (
+				155128AF19D606BB0063857C /* Sources */,
+				155128B019D606BB0063857C /* Frameworks */,
+				155128B119D606BB0063857C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				155128B819D606BB0063857C /* PBXTargetDependency */,
+			);
+			name = RASketchTests;
+			productName = RASketchTests;
+			productReference = 155128B319D606BB0063857C /* RASketchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1551288A19D606BA0063857C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Rinat Abdrashitov";
+				TargetAttributes = {
+					155128B219D606BB0063857C = {
+						TestTargetID = 1551289119D606BA0063857C;
+					};
+				};
+			};
+			buildConfigurationList = 1551288D19D606BA0063857C /* Build configuration list for PBXProject "RASketch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1551288919D606BA0063857C;
+			productRefGroup = 1551289319D606BA0063857C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1551289119D606BA0063857C /* RASketch */,
+				155128B219D606BB0063857C /* RASketchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1551289019D606BA0063857C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155128A019D606BA0063857C /* InfoPlist.strings in Resources */,
+				155128AE19D606BA0063857C /* Images.xcassets in Resources */,
+				1551295519D628690063857C /* DepthShader.vsh in Resources */,
+				1551295819D628690063857C /* PosColorShader.fsh in Resources */,
+				155128A619D606BA0063857C /* Credits.rtf in Resources */,
+				1551295919D628690063857C /* PosColorShader.vsh in Resources */,
+				1551295A19D628690063857C /* Shader.fsh in Resources */,
+				1551295B19D628690063857C /* Shader.vsh in Resources */,
+				1551295419D628690063857C /* DepthShader.fsh in Resources */,
+				1551295719D628690063857C /* DirectionalLight.vsh in Resources */,
+				1551295619D628690063857C /* DirectionalLight.fsh in Resources */,
+				155128AC19D606BA0063857C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155128B119D606BB0063857C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155128BE19D606BB0063857C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1551288E19D606BA0063857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1551294B19D628690063857C /* RAES2ShaderProgram.cpp in Sources */,
+				155128CD19D60DD40063857C /* RAGLView.mm in Sources */,
+				155128A919D606BA0063857C /* AppDelegate.mm in Sources */,
+				1551294E19D628690063857C /* RAMesh.cpp in Sources */,
+				1551294C19D628690063857C /* RAES2VertexArray.cpp in Sources */,
+				155128A219D606BA0063857C /* main.m in Sources */,
+				1551294D19D628690063857C /* RAES2VertexBuffer.cpp in Sources */,
+				1551294A19D628690063857C /* RAES2OffScreenBuffer.cpp in Sources */,
+				1551295019D628690063857C /* RALogManager.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		155128AF19D606BB0063857C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				155128C019D606BB0063857C /* RASketchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		155128B819D606BB0063857C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1551289119D606BA0063857C /* RASketch */;
+			targetProxy = 155128B719D606BB0063857C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1551289E19D606BA0063857C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1551289F19D606BA0063857C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		155128A419D606BA0063857C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155128A519D606BA0063857C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		155128AA19D606BA0063857C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155128AB19D606BA0063857C /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		155128BC19D606BB0063857C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				155128BD19D606BB0063857C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		155128C119D606BB0063857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		155128C219D606BB0063857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+		155128C419D606BB0063857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASketch/RASketch-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../OculusSDK/LibOVR/Src/**",
+					"$(SRCROOT)/../OculusSDK/LibOVR/Include",
+					"$(SRCROOT)/../GTEngine/Include",
+					"$(SRCROOT)/../GTEngine/Source",
+				);
+				INFOPLIST_FILE = "RASketch/RASketch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(SRCROOT)/../OculusSDK/LibOVR/Lib/Mac/$(CONFIGURATION)",
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OculusProjects-ccyvarwnxljrqgbsklqbvxfscsvs/Build/Products/Default",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		155128C519D606BB0063857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LIBRARY = "libc++";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASketch/RASketch-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../OculusSDK/LibOVR/Src/**",
+					"$(SRCROOT)/../OculusSDK/LibOVR/Include",
+					"$(SRCROOT)/../GTEngine/Include",
+					"$(SRCROOT)/../GTEngine/Source",
+				);
+				INFOPLIST_FILE = "RASketch/RASketch-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../OculusSDK/LibOVR/Lib/Mac/$(CONFIGURATION)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/OculusProjects-ccyvarwnxljrqgbsklqbvxfscsvs/Build/Products/Default",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		155128C719D606BB0063857C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RASketch.app/Contents/MacOS/RASketch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASketch/RASketch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RASketchTests/RASketchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		155128C819D606BB0063857C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RASketch.app/Contents/MacOS/RASketch";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RASketch/RASketch-Prefix.pch";
+				INFOPLIST_FILE = "RASketchTests/RASketchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1551288D19D606BA0063857C /* Build configuration list for PBXProject "RASketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155128C119D606BB0063857C /* Debug */,
+				155128C219D606BB0063857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155128C319D606BB0063857C /* Build configuration list for PBXNativeTarget "RASketch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155128C419D606BB0063857C /* Debug */,
+				155128C519D606BB0063857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		155128C619D606BB0063857C /* Build configuration list for PBXNativeTarget "RASketchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				155128C719D606BB0063857C /* Debug */,
+				155128C819D606BB0063857C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1551288A19D606BA0063857C /* Project object */;
+}

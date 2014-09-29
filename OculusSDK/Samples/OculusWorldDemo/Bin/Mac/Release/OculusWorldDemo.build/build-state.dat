@@ -1,0 +1,1102 @@
+TOculusWorldDemo
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo normal x86_64
+cGenerateDSYMFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo
+cCpResource /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets
+cCpResource /Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns
+cTouch /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000534F160B00000000000000AA
+t1397691915
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000527529C0000000000000044C
+t1383410112
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531E4EB400000000000001DE
+t1394495156
+s478
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000531E4EB5000000000002848C
+t1394495157
+s165004
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000527529C1000000000000253C
+t1383410113
+s9532
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+c00000000531E4EB5000000000004426C
+t1394495157
+s279148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000531E4EB5000000000000BB7C
+t1394495157
+s47996
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c00000000531E4EB70000000000000ADC
+t1394495159
+s2780
+
+N/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp
+c000000005409463C000000000000C696
+t1409893948
+s50838
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp
+c00000000540946390000000000003B68
+t1409893945
+s15208
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm
+c00000000540946390000000000003AE3
+t1409893945
+s15075
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp
+c00000000540946390000000000001975
+t1409893945
+s6517
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp
+c00000000540946390000000000000859
+t1409893945
+s2137
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp
+c0000000054094639000000000000E604
+t1409893945
+s58884
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp
+c0000000054094639000000000000D9E5
+t1409893945
+s55781
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp
+c00000000540946390000000000000DF5
+t1409893945
+s3573
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp
+c00000000540946390000000000000C37
+t1409893945
+s3127
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp
+c00000000540946390000000000003847
+t1409893945
+s14407
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp
+c000000005409463900000000000067EE
+t1409893945
+s26606
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp
+c00000000540946390000000000000E53
+t1409893945
+s3667
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns
+c000000005409463C000000000002363E
+t1409893948
+s144958
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets
+c0000000054238C0A0000000000000088
+t1411615754
+s136
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app
+t1411693650
+s102
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM
+t2
+s0
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist
+t1411693650
+s1492
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo
+t1411693656
+s1351316
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/PkgInfo
+t1411693650
+s8
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets
+t1411693656
+s102
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns
+t1411693656
+s144958
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o
+t1411693652
+s41108
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o
+t1411693656
+s266880
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o
+t1411693653
+s23480
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.LinkFileList
+c000000005424BC5200000000000007DA
+t1411693650
+s2010
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o
+t1411693652
+s477564
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o
+t1411693652
+s400168
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o
+t1411693653
+s465676
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o
+t1411693652
+s129632
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o
+t1411693653
+s85900
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o
+t1411693654
+s116832
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o
+t1411693655
+s504360
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o
+t1411693652
+s311572
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o
+t1411693653
+s115908
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o
+t1411693654
+s121544
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o
+t1411693654
+s362580
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o
+t1411693654
+s262360
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp
+c0000000054094639000000000000CFD7
+t1409893945
+s53207
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp
+c000000005409463900000000000036C9
+t1409893945
+s14025
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp
+c00000000540946390000000000001A24
+t1409893945
+s6692
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Lib/Mac/Xcode/CONFIGURATION/libovr.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist
+c00000000540946390000000000000477
+t1409893945
+s1143
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp
+r0
+
+CBuild AST from /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd9d1bcd2f3d4b941^7e1ebfd2f3d4b941^---0#1#1#--18"Check dependencies36"CCC6C714-466B-4C06-9809-3329D8128CBA-
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386452.381309
+e433386452.897682
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp277"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler6ec261d4f3d4b941^14cfe5d4f3d4b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp0000000000000000^3515"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o36"A4EDCDFA-AD80-4AAB-A79F-6A4979EB19BA-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386454.466486
+e433386456.050795
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm
+xnormal
+xx86_64
+xobjective-c++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_PlatformObjc.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm288"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler009077d6f3d4b941^d2010dd8f3d4b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm0000000000000000^3778"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm normal x86_64 objective-c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -DNS_BLOCK_ASSERTIONS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.mm -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o36"9E2A5850-049D-4B94-A625-FEF3FE8A2332-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386453.374716
+e433386453.695979
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp281"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler560b60d5f3d4b941^014cb5d5f3d4b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp0000000000000000^3527"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_WavPlayer.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o36"AFE56833-66AD-47BB-B413-065ADEDF9080-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386450.754230
+e433386452.894820
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform_Default.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.h
+d/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorStateReader.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Lockless.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_PoseState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SharedMemory.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_LatencyTest2State.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Compile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp282"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler5930c1d2f3d4b941^0e13e5d4f3d4b941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp0000000000000000^3533"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o36"08707C12-26A4-4177-882D-BCDC222CFDB0-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386450.754660
+e433386452.371500
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform_Default.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.h
+d/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorStateReader.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Lockless.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_PoseState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SharedMemory.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_LatencyTest2State.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp294"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3196c1d2f3d4b941^041b5fd4f3d4b941^---0#0#1#-19%DVTDocumentLocation2@89"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp0000000000000000^3569"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/OculusWorldDemo_Scene.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o36"DD3830AE-279C-486F-92C7-1AF0BEAEA727-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386450.756023
+e433386453.244329
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform_Default.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorStateReader.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Lockless.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_PoseState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SharedMemory.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_LatencyTest2State.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_FontEmbed_DejaVu48.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Font.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp271"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler1ea6c1d2f3d4b941^978d3ed5f3d4b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp0000000000000000^3501"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o36"17E17030-6E7A-49DF-9439-2D10AABCF694-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386452.373125
+e433386452.833893
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp271"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler58aa5fd4f3d4b941^467ad5d4f3d4b941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp0000000000000000^3497"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o36"B0EF1C5D-D6C6-4EFC-8F19-4C75EB4B9F2A-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386453.244736
+e433386453.956649
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp264"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler8bc63ed5f3d4b941^8a02f9d5f3d4b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp0000000000000000^3479"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Player.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o36"56F875F9-64CD-40E4-A393-4B8B3F4A4B44-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386454.503151
+e433386454.977285
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Include/OVR_Kernel.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Nullptr.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Timer.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/OptionMenu.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform_Default.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/OSX_Platform.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Platform.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_KeyCodes.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Platform/Gamepad.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorStateReader.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Lockless.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_PoseState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SharedMemory.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_LatencyTest2State.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp279"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerbceb80d6f3d4b941^8e3efad6f3d4b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp0000000000000000^3525"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Util/RenderProfiler.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o36"E0338BE9-63C8-40F2-929F-550CCE9FB6B2-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386453.696291
+e433386455.601311
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Font.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorStateReader.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Lockless.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_SensorState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Tracking/Tracking_PoseState.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SharedMemory.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Util/Util_LatencyTest2State.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp279"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerc85fb2d5f3d4b941^b3f099d7f3d4b941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp0000000000000000^3523"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o36"01EF4C2F-85F5-4450-B8A3-C71744DA5043-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386450.753748
+e433386452.379862
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI_GL.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp285"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler3412c1d2f3d4b941^9d8161d4f3d4b941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp0000000000000000^3541"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_GL_Device.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o36"5182D381-9C64-4FDA-B637-630D734C7F0A-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386452.896255
+e433386453.374376
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp295"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compilerb48fe5d4f3d4b941^c7da5fd5f3d4b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp0000000000000000^3571"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureDDS.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o36"4AFE8C5B-F244-4907-9C46-6F24756907E8-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386453.958096
+e433386454.502812
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp295"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler8065f5d5f3d4b941^15fe80d6f3d4b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp0000000000000000^3571"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_LoadTextureTGA.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o36"0403F3BE-FAFB-4E07-8C88-C9F8BD4D9034-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386452.835651
+e433386454.465940
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o
+x/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.h
+d/Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_Device.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Math.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Types.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Compiler.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_RefCount.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Allocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Std.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Alg.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Array.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_ContainerAllocator.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_String.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_UTF8Util.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Atomic.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_File.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Color.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_CAPI.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Stereo.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Displays/OVR_Display.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/OVR_Profile.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Hash.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_System.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_Log.h
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Src/Kernel/OVR_SysFile.h
+d/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp295"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler0f0ed6d4f3d4b941^efaa77d6f3d4b941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp0000000000000000^3571"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.dia -c /Users/Rinat/Downloads/OculusSDK/Samples/CommonSrc/Render/Render_XmlSceneLoader.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o36"43401F6D-5E92-4C39-A108-9C21D15CB893-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s433386452.899100
+e433386454.534350
+r1
+xCompileC
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o
+x/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp
+d/Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp261"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler124be6d4f3d4b941^25cc88d6f3d4b941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp0000000000000000^3477"CompileC /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu++11 -stdlib=libc++ -fmodules -fmodules-cache-path=/Users/Rinat/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fno-rtti -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-generated-files.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-own-target-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-all-target-headers.hmap -iquote /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/OculusWorldDemo-project-headers.hmap -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Src -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Include -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../3rdParty/TinyXml -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources/x86_64 -I/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/DerivedSources -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -MMD -MT dependencies -MF /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.d --serialize-diagnostics /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.dia -c /Users/Rinat/Downloads/OculusSDK/3rdParty/TinyXml/tinyxml2.cpp -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o36"A3066AF6-5FDA-40DD-8757-2F18EE912BA1-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCpResource /Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns
+s433386456.955727
+e433386456.959633
+r1
+xCpResource
+x/Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Copy /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns187"CpResource /Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icnse8bef4d8f3d4b941^bdacf5d8f3d4b941^---0#0#1#-19%DVTDocumentLocation2@130"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns0034b85bddffdf42^674"CpResource /Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Oculus.icns    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Rinat/Downloads/OculusSDK/Samples/Oculus.icns /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources36"190E96DB-63CB-43E0-A1C5-3B48B5571A2D-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CCpResource /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets
+s433386456.955526
+e433386458.067443
+r1
+xCpResource
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection123"Copy /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets193"CpResource /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets25adf4d8f3d4b941^b7b61cdaf3d4b941^---0#0#1#-19%DVTDocumentLocation2@125"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets0034b85bddffdf42^691"CpResource /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources/Assets    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Assets /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Resources36"76BF7A83-E466-44B8-B6D8-93FBE93D8347-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CGenerateDSYMFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo
+s433386456.430873
+e433386456.954997
+r1
+xGenerateDSYMFile
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generate /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM238"GenerateDSYMFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo9f596ed8f3d4b941^9d67f4d8f3d4b941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM0034b85bddffdf42^647"GenerateDSYMFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app.dSYM36"27F1CF60-5401-44DA-A134-8A7FF981206C-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CLd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo normal x86_64
+s433386456.054990
+e433386456.429623
+r1
+xLd
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo
+xnormal
+xx86_64
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.LinkFileList
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_GL_Device.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_Scene.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OptionMenu.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Platform.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Gamepad.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_XmlSceneLoader.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureDDS.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/tinyxml2.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Player.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_WavPlayer.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_Device.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/Render_LoadTextureTGA.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OSX_Platform.o
+d/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/RenderProfiler.o
+d/Users/Rinat/Downloads/OculusSDK/LibOVR/Lib/Mac/Release/libovr.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/IOKit.framework/IOKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/OpenGL
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGLU.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/OpenGL.framework/Versions/A/Libraries/libGL.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/AppKit.framework/AppKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/ApplicationServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ImageIO.framework/ImageIO
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ATS.framework/Versions/A/ATS
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/ColorSync.framework/Versions/A/ColorSync
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/CoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/HIServices.framework/Versions/A/HIServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/LangAnalysis.framework/Versions/A/LangAnalysis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/PrintCore.framework/Versions/A/PrintCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/QD.framework/Versions/A/QD
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/ApplicationServices.framework/Versions/A/Frameworks/SpeechSynthesis.framework/Versions/A/SpeechSynthesis
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/CarbonCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/Metadata.framework/Versions/A/Metadata
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/OSServices.framework/Versions/A/OSServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/SearchKit.framework/Versions/A/SearchKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/AE.framework/Versions/A/AE
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/LaunchServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/DictionaryServices.framework/Versions/A/DictionaryServices
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"Link /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo140"Ld /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo normal x86_64f12b0ed8f3d4b941^09fc6dd8f3d4b941^---0#0#1#--1366"Ld /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo normal x86_64    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    export MACOSX_DEPLOYMENT_TARGET=10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -L/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/../../../../../LibOVR/Lib/Mac/Release -F/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release -filelist /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo.LinkFileList -mmacosx-version-min=10.8 -stdlib=libc++ -fobjc-link-runtime -lovr -framework IOKit -framework OpenGL -framework AudioToolbox -framework Cocoa -Xlinker -dependency_info -Xlinker /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.build/Objects-normal/x86_64/OculusWorldDemo_dependency_info.dat -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/MacOS/OculusWorldDemo36"17A22379-9C38-43F0-A844-C5E9A524F5A2-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CProcessInfoPlistFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist
+s433386450.747803
+e433386450.750090
+r1
+xProcessInfoPlistFile
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Process /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist160"ProcessInfoPlistFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist OculusWorldDemo-Info.plist1e89bfd2f3d4b941^9a07c0d2f3d4b941^---0#0#1#-19%DVTDocumentLocation2@109"file:///Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist0000000000000000^652"ProcessInfoPlistFile /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist OculusWorldDemo-Info.plist    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    builtin-infoPlistUtility /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode/OculusWorldDemo-Info.plist -genpkginfo /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app/Contents/Info.plist36"A0267DBD-D135-4685-9B73-628D5FEF163E-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+
+CTouch /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app
+s433386458.068153
+e433386458.080164
+r1
+xTouch
+x/Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Touch /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app98"Touch /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app9e7d11daf3d4b941^1fbe1cdaf3d4b941^---0#0#1#--297"Touch /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app    cd /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Projects/Mac/Xcode    /usr/bin/touch -c /Users/Rinat/Downloads/OculusSDK/Samples/OculusWorldDemo/Bin/Mac/Release/OculusWorldDemo.app36"A991EC36-E4E3-4EBC-92ED-5218E264F00B-
+b1D6FAD23-8970-48E9-864A-D0B3E0277793
+

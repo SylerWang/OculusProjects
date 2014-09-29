@@ -1,0 +1,29 @@
+dependencies: \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.cpp \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/Util_Render_Stereo.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../OVR_Stereo.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/OVR_DeviceConstants.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Math.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Types.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Compiler.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_RefCount.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Allocator.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Std.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Alg.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Displays/OVR_Display.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Displays/../Kernel/OVR_Atomic.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Displays/../Kernel/OVR_Array.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_ContainerAllocator.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Displays/../Kernel/OVR_String.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_UTF8Util.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../OVR_Profile.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Kernel/OVR_StringHash.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Hash.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Kernel/OVR_System.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Sensors/../Kernel/OVR_Log.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/Tracking_SensorStateReader.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/../Kernel/OVR_Lockless.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/Tracking_SensorState.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/Tracking_PoseState.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/../Kernel/OVR_SharedMemory.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Util/../Tracking/../Util/Util_LatencyTest2State.h

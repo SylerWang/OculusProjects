@@ -1,0 +1,151 @@
+//
+//  RAUnitSphere.cpp
+//  PAM2
+//
+//  Created by Rinat Abdrashitov on 2014-06-28.
+//  Copyright (c) 2014 Rinat Abdrashitov. All rights reserved.
+//
+
+#include "RAUnitSphere.h"
+#include "RA_Types.h"
+
+#if defined(RA_OS_IPHONE)
+#import <OpenGLES/ES2/gl.h>
+#elif defined(RA_OS_MAC)
+#import <OpenGL/gl.h>
+#endif
+
+#include "RALogManager.h"
+#include "ObjLoader.h"
+
+namespace RAEngine
+{
+    using namespace gte;
+    using namespace std;
+    
+    RAUnitSphere::RAUnitSphere() : RAUnitSphere(Vector3f(0,0,0))
+    {
+    }
+    
+    
+    RAUnitSphere::RAUnitSphere(const gte::Vector3f& point)
+    {
+        translate(point);
+        center = point;
+    }
+    
+    void RAUnitSphere::setCenter(const gte::Vector3f& point)
+    {
+        translationMatrix.SetIdentity();
+        translate(point);
+        center = point;
+    }    
+    
+    void RAUnitSphere::setupShaders(const std::string vertexShader, const std::string fragmentShader)
+    {
+        drawShaderProgram = new RAES2ShaderProgram();
+        drawShaderProgram->loadProgram(vertexShader, fragmentShader);
+        
+        attrib[ATTRIB_POSITION] = drawShaderProgram->getAttributeLocation("aPosition");
+//        attrib[ATTRIB_NORMAL] = drawShaderProgram->getAttributeLocation("aNormal");
+        attrib[ATTRIB_COLOR] = drawShaderProgram->getAttributeLocation("aColor");
+        
+        uniforms[UNIFORM_MODELVIEWPROJECTION_MATRIX] = drawShaderProgram->getUniformLocation("uModelViewProjectionMatrix");
+//        uniforms[UNIFORM_NORMAL_MATRIX] = drawShaderProgram->getUniformLocation("uNormalMatrix");
+    }
+
+    int RAUnitSphere::loadObjFile(const char* path, const char* file)
+    {
+        vector<Vector3f> vertices{};
+        vector<Vector3f> normals{};
+        vector<int> faces{};
+        vector<int> indices{};
+        
+        HMesh::obj_load(path, vertices, normals, faces, indices);
+        Vec4uc* colors = new Vec4uc[vertices.size()];
+        std::fill_n(colors, vertices.size(), Vec4uc(255,0,0,255));
+        
+        numVerticies = vertices.size();
+        positionDataBuffer = new RAES2VertexBuffer(sizeof(Vec3f),
+                                                   numVerticies,
+                                                   vertices.data(),
+                                                   GL_STATIC_DRAW,
+                                                   GL_ARRAY_BUFFER);
+        positionDataBuffer->enableAttribute(attrib[ATTRIB_POSITION]);
+        
+//        normalDataBuffer = new RAES2VertexBuffer(sizeof(Vec3f),
+//                                                 numVerticies,
+//                                                 normals.data(),
+//                                                 GL_STATIC_DRAW,
+//                                                 GL_ARRAY_BUFFER);
+//        normalDataBuffer->enableAttribute(attrib[ATTRIB_NORMAL]);
+        
+        colorDataBuffer = new RAES2VertexBuffer(sizeof(Vec4uc),
+                                                numVerticies,
+                                                colors,
+                                                GL_STATIC_DRAW,
+                                                GL_ARRAY_BUFFER);
+        colorDataBuffer->enableAttribute(attrib[ATTRIB_COLOR]);
+        
+        numIndicies = indices.size();
+        indexDataBuffer = new RAES2VertexBuffer(sizeof(unsigned int),
+                                                numIndicies,
+                                                indices.data(),
+                                                GL_STATIC_DRAW,
+                                                GL_ELEMENT_ARRAY_BUFFER);
+        
+        delete[] colors;
+        return 1;
+    }
+    
+    
+    void RAUnitSphere::draw() const
+    {
+        if  (!enabled)
+            return;
+        
+        Mat4x4 mvpMat = transpose(getModelViewProjectionMatrix());
+//        Mat3x3 normal = transpose(getNormalMatrix());
+        
+        glPushGroupMarkerEXT(0, "Drawing Unit Sphere");
+        
+        glUseProgram(drawShaderProgram->getProgram());
+        GL_CHECK_ERROR;
+        glUniformMatrix4fv(uniforms[UNIFORM_MODELVIEWPROJECTION_MATRIX], 1, 0, mvpMat.get());
+        GL_CHECK_ERROR;
+//        glUniformMatrix3fv(uniforms[UNIFORM_NORMAL_MATRIX], 1, 0, normal.get());
+//        GL_CHECK_ERROR;
+        
+        positionDataBuffer->bind();
+        positionDataBuffer->prepareToDraw(attrib[ATTRIB_POSITION], 3, 0, GL_FLOAT, GL_FALSE);
+        
+//        normalDataBuffer->bind();
+//        normalDataBuffer->prepareToDraw(attrib[ATTRIB_NORMAL], 3, 0, GL_FLOAT, GL_FALSE);
+
+        colorDataBuffer->bind();
+        colorDataBuffer->prepareToDraw(attrib[ATTRIB_COLOR], 4, 0, GL_UNSIGNED_BYTE, GL_TRUE);
+        
+        indexDataBuffer->bind();
+        indexDataBuffer->drawPreparedArraysIndicies(GL_TRIANGLES, GL_UNSIGNED_INT, numIndicies);
+        
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
+        
+        glPopGroupMarkerEXT();
+    }
+    
+    Bounds RAUnitSphere::getBoundingBox() const
+    {
+        Bounds bounds;
+        bounds.minBound = Vec3(getModelMatrix() * Vec4f(-1,-1,-1,1));
+        bounds.maxBound = Vec3(getModelMatrix() * Vec4f(1,1,1,1));
+        bounds.center = Vec3(getModelMatrix() * Vec4f(0,0,0,1));
+        bounds.radius = (bounds.minBound - bounds.center).length();
+        return bounds;
+    }
+    
+    void RAUnitSphere::resetTranslation()
+    {
+        translationMatrix = identity_Mat4x4f();
+    }
+}

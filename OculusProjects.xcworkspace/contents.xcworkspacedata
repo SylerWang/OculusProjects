@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:RASketch/RASketch.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GTEngine/GTEngine.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OculusSDK/LibOVR/Projects/Mac/Xcode/LibOVR.xcodeproj">
+   </FileRef>
+</Workspace>

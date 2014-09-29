@@ -1,0 +1,278 @@
+// Geometric Tools LLC, Redmond WA 98052
+// Copyright (c) 1998-2014
+// Distributed under the Boost Software License, Version 1.0.
+// http://www.boost.org/LICENSE_1_0.txt
+// http://www.geometrictools.com/License/Boost/LICENSE_1_0.txt
+// File Version: 1.0.0 (2014/08/11)
+
+//----------------------------------------------------------------------------
+template <typename Real>
+TIQuery<Real, AlignedBox3<Real>, OrientedBox3<Real>>::Result::
+Result(Real inEpsilon)
+{
+    if (inEpsilon >= (Real)0)
+    {
+        epsilon = inEpsilon;
+    }
+    else
+    {
+        epsilon = (Real)0;
+    }
+}
+//----------------------------------------------------------------------------
+template <typename Real>
+typename TIQuery<Real, AlignedBox3<Real>, OrientedBox3<Real>>::Result
+TIQuery<Real, AlignedBox3<Real>, OrientedBox3<Real>>::operator()(
+    AlignedBox3<Real> const& box0, OrientedBox3<Real> const& box1)
+{
+    Result result;
+
+    // Get the centered form of the aligned box.  The axes are implicitly
+    // A0[0] = (1,0,0), A0[1] = (0,1,0), and A0[2] = (0,0,1).
+    Vector3<Real> C0, E0;
+    box0.GetCenteredForm(C0, E0);
+
+    // Convenience variables.
+    Vector3<Real> const& C1 = box1.center;
+    Vector3<Real> const* A1 = box1.axis;
+    Vector3<Real> const& E1 = box1.extent;
+
+    Real const cutoff = (Real)1 - result.epsilon;
+    bool existsParallelPair = false;
+
+    // Compute the difference of box centers.
+    Vector3<Real> D = C1 - C0;
+
+    Real dot01[3][3];       // dot01[i][j] = Dot(A0[i],A1[j]) = A1[j][i]
+    Real absDot01[3][3];    // |dot01[i][j]|
+    Real r0, r1, r;         // interval radii and distance between centers
+    Real r01;               // r0 + r1
+
+    // Test for separation on the axis C0 + t*A0[0].
+    for (int i = 0; i < 3; ++i)
+    {
+        dot01[0][i] = A1[i][0];
+        absDot01[0][i] = std::abs(A1[i][0]);
+        if (absDot01[0][i] >= cutoff)
+        {
+            existsParallelPair = true;
+        }
+    }
+    r = std::abs(D[0]);
+    r1 = E1[0] * absDot01[0][0] + E1[1] * absDot01[0][1] + E1[2] * absDot01[0][2];
+    r01 = E0[0] + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 0;
+        result.separating[1] = -1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[1].
+    for (int i = 0; i < 3; ++i)
+    {
+        dot01[1][i] = A1[i][1];
+        absDot01[1][i] = std::abs(A1[i][1]);
+        if (absDot01[1][i] >= cutoff)
+        {
+            existsParallelPair = true;
+        }
+    }
+    r = std::abs(D[1]);
+    r1 = E1[0] * absDot01[1][0] + E1[1] * absDot01[1][1] + E1[2] * absDot01[1][2];
+    r01 = E0[1] + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 1;
+        result.separating[1] = -1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[2].
+    for (int i = 0; i < 3; ++i)
+    {
+        dot01[2][i] = A1[i][2];
+        absDot01[2][i] = std::abs(A1[i][2]);
+        if (absDot01[2][i] >= cutoff)
+        {
+            existsParallelPair = true;
+        }
+    }
+    r = std::abs(D[2]);
+    r1 = E1[0] * absDot01[2][0] + E1[1] * absDot01[2][1] + E1[2] * absDot01[2][2];
+    r01 = E0[2] + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 2;
+        result.separating[1] = -1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A1[0].
+    r = std::abs(Dot(D, A1[0]));
+    r0 = E0[0] * absDot01[0][0] + E0[1] * absDot01[1][0] + E0[2] * absDot01[2][0];
+    r01 = r0 + E1[0];
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = -1;
+        result.separating[1] = 0;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A1[1].
+    r = std::abs(Dot(D, A1[1]));
+    r0 = E0[0] * absDot01[0][1] + E0[1] * absDot01[1][1] + E0[2] * absDot01[2][1];
+    r01 = r0 + E1[1];
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = -1;
+        result.separating[1] = 1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A1[2].
+    r = std::abs(Dot(D, A1[2]));
+    r0 = E0[0] * absDot01[0][2] + E0[1] * absDot01[1][2] + E0[2] * absDot01[2][2];
+    r01 = r0 + E1[2];
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = -1;
+        result.separating[1] = 2;
+        return result;
+    }
+
+    // At least one pair of box axes was parallel, so the separation is
+    // effectively in 2D.  The edge-edge axes do not need to be tested.
+    if (existsParallelPair)
+    {
+        result.intersect = true;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[0]xA1[0].
+    r = std::abs(D[2] * dot01[1][0] - D[1] * dot01[2][0]);
+    r0 = E0[1] * absDot01[2][0] + E0[2] * absDot01[1][0];
+    r1 = E1[1] * absDot01[0][2] + E1[2] * absDot01[0][1];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 0;
+        result.separating[1] = 0;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[0]xA1[1].
+    r = std::abs(D[2] * dot01[1][1] - D[1] * dot01[2][1]);
+    r0 = E0[1] * absDot01[2][1] + E0[2] * absDot01[1][1];
+    r1 = E1[0] * absDot01[0][2] + E1[2] * absDot01[0][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 0;
+        result.separating[1] = 1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[0]xA1[2].
+    r = std::abs(D[2] * dot01[1][2] - D[1] * dot01[2][2]);
+    r0 = E0[1] * absDot01[2][2] + E0[2] * absDot01[1][2];
+    r1 = E1[0] * absDot01[0][1] + E1[1] * absDot01[0][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 0;
+        result.separating[1] = 2;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[1]xA1[0].
+    r = std::abs(D[0] * dot01[2][0] - D[2] * dot01[0][0]);
+    r0 = E0[0] * absDot01[2][0] + E0[2] * absDot01[0][0];
+    r1 = E1[1] * absDot01[1][2] + E1[2] * absDot01[1][1];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 1;
+        result.separating[1] = 0;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[1]xA1[1].
+    r = std::abs(D[0] * dot01[2][1] - D[2] * dot01[0][1]);
+    r0 = E0[0] * absDot01[2][1] + E0[2] * absDot01[0][1];
+    r1 = E1[0] * absDot01[1][2] + E1[2] * absDot01[1][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 1;
+        result.separating[1] = 1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[1]xA1[2].
+    r = std::abs(D[0] * dot01[2][2] - D[2] * dot01[0][2]);
+    r0 = E0[0] * absDot01[2][2] + E0[2] * absDot01[0][2];
+    r1 = E1[0] * absDot01[1][1] + E1[1] * absDot01[1][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 1;
+        result.separating[1] = 2;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[2]xA1[0].
+    r = std::abs(D[1] * dot01[0][0] - D[0] * dot01[1][0]);
+    r0 = E0[0] * absDot01[1][0] + E0[1] * absDot01[0][0];
+    r1 = E1[1] * absDot01[2][2] + E1[2] * absDot01[2][1];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 2;
+        result.separating[1] = 0;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[2]xA1[1].
+    r = std::abs(D[1] * dot01[0][1] - D[0] * dot01[1][1]);
+    r0 = E0[0] * absDot01[1][1] + E0[1] * absDot01[0][1];
+    r1 = E1[0] * absDot01[2][2] + E1[2] * absDot01[2][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 2;
+        result.separating[1] = 1;
+        return result;
+    }
+
+    // Test for separation on the axis C0 + t*A0[2]xA1[2].
+    r = std::abs(D[1] * dot01[0][2] - D[0] * dot01[1][2]);
+    r0 = E0[0] * absDot01[1][2] + E0[1] * absDot01[0][2];
+    r1 = E1[0] * absDot01[2][1] + E1[1] * absDot01[2][0];
+    r01 = r0 + r1;
+    if (r > r01)
+    {
+        result.intersect = false;
+        result.separating[0] = 2;
+        result.separating[1] = 2;
+        return result;
+    }
+
+    result.intersect = true;
+    return result;
+}
+//----------------------------------------------------------------------------

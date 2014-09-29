@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/OVR_Stereo.cpp \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/OVR_Stereo.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/OVR_DeviceConstants.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Math.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Types.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Compiler.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_RefCount.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Allocator.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Std.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Alg.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Displays/OVR_Display.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Displays/../Kernel/OVR_Atomic.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Displays/../Kernel/OVR_Array.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_ContainerAllocator.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Displays/../Kernel/OVR_String.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_UTF8Util.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/OVR_Profile.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Kernel/OVR_StringHash.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Hash.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Kernel/OVR_System.h \
+  /Users/Rinat/Workspace/OculusProjects/OculusSDK/LibOVR/Src/Sensors/../Kernel/OVR_Log.h
